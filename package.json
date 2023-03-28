@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "First Last <first.last@example.com>",
-  "main": "server.js",
+  "main": "index.html",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "lite-server": "^2.6.1"
   }
 }
